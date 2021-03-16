@@ -1,0 +1,55 @@
+body{
+    font-size: 20px;
+}
+p{
+    color:red;
+}
+.texto{
+    color:blue;
+}
+.bloque1{
+    background: #000;
+    padding: 10px ;
+}
+.bloque1 .textobloque1 {
+    color:#fff;
+}
+.bloque1 p{
+    color:yellow;
+}
+.bloque1 .parrafos{
+    padding: 20px;
+}
+.bloque1 .parrafos h4{
+    background: #c2c2c2;
+    padding: 10px;
+}
+/*Medidas Relativas*/
+/*
+px-pixel
+padre= 40px
+em- 2em=80px depende del tamaño del padre
+*/
+.textoem{
+    font-size: 20px;
+}
+.textoem .em{
+    font-size: 1em;
+}
+/*
+rem depende del tamaño del body
+*/
+.textoem .rem{
+    font-size: 2rem;
+}
+
+/*Medidad absolutas
+in- pulgadas
+cm- centimetros
+mm- milimetros
+*/
+.caja{
+    width: 20in;
+    height: 20in;
+    background: violet;
+}
